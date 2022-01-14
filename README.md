@@ -1,9 +1,7 @@
 # Today I Learned
----
 
 
 ## Algorithm
----
 
 
 ### programmers
