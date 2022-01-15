@@ -32,7 +32,6 @@
 - 큐를 활용한 문제로, 그대로 큐의 기능을 사용하였다.
 - 문서 위치는 `(location + len(priorities) - 1) % len(priorities) ` 를 통해 해당 배열에서 순환시키도록 하였다.
 
-n * n
 
 ## 코드 분석
 ```python3
