@@ -28,3 +28,4 @@
     - [주식가격](https://github.com/rt3310/TIL/blob/main/Algorithm/programmers/stack_queue/stock.md)
 - Sort
     - [K번째수](https://github.com/rt3310/TIL/blob/main/Algorithm/programmers/sort/knum.md)
+    - [H-Index](https://github.com/rt3310/TIL/blob/main/Algorithm/programmers/sort/H_Index.md)
