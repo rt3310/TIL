@@ -9,5 +9,3 @@ def solution(citations):
             answer = i + 1
 
     return answer
-
-print(solution([3, 0, 6, 1, 5])) # 0 1 3 5 6 
