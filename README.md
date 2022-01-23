@@ -10,13 +10,32 @@
 <img src="https://img.shields.io/badge/AmazonAWS-232F3E?style=flat-square&logo=AmazonAWS&logoColor=white"/></a>
 
 
+## Language
+
+### Java
+
+
 ## CS
 
 ### Data Structure
 
-### Algorithm
-
 ### OS
+
+### DB
+
+### S/W Engineering
+
+
+## Web
+
+### HTTP
+
+### Spring
+
+### nginx
+
+### DevOps
+
 
 ## Algorithm
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
