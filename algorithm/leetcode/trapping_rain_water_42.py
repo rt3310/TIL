@@ -55,6 +55,7 @@ class Solution2:
         volume = 0
         
         for i in range(len(height)):
+            print(stack)
             # 변곡점을 만나는 경우
             while stack and height[i] > height[stack[-1]]: # 스택에 값이 있고 현재 블럭이 스택의 마지막 블럭보다 높을 경우
                 # 스택에서 꺼낸다
