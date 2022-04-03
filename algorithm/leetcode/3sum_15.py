@@ -15,6 +15,7 @@ class Solution:
         while pivot < len(nums) - 1:
             total = nums[left] + nums[pivot] + nums[right]
             
+            
             if total == 0:
                 if answer.count([nums[left], nums[pivot], nums[right]]) == 0:
                     answer.append([nums[left], nums[pivot], nums[right]])
