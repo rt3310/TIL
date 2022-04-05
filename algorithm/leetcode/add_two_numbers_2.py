@@ -60,7 +60,7 @@ print(Solution().addTwoNumbers(a_head, b_head))
 
 # [풀이1. 자료형 변환]==========================================================
 
-class Solution:
+class Solution1:
     # 연결 리스트 뒤집기
     def reverseList(self, head: ListNode): # -> ListNode:
         node, prev = head, None
@@ -104,7 +104,7 @@ class Solution:
     
 # [풀이2. 전가산기 구현]==========================================================
 
-class Solution:
+class Solution2:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]): # -> Optional[ListNode]:
         root = head = ListNode(0)
         

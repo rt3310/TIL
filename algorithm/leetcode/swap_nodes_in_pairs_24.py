@@ -53,7 +53,7 @@ class Solution2:
 # [풀이3. 재귀 구조로 스왑]===================================================
 
 class Solution3:
-    def swapPairs(self, head: Optional[ListNode]): # -> Optional[ListNode]:
+    def swapPairs(self, head: Optional[ListNode]): # -> O0ptional[ListNode]:
         if head and head.next:
             p = head.next
             # 스왑된 값 리턴 받음
