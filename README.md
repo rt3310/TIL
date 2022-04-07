@@ -26,16 +26,25 @@
 ### S/W Engineering
 
 
-## Web
+## Backend
 
 ### HTTP
 
 ### Spring
 
+### JPA
+
 ### nginx
 
-### DevOps
+### MySQL
 
+## DevOps
+
+### AWS
+
+### Docker
+
+### Jenkins
 
 ## Algorithm
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
@@ -60,3 +69,7 @@
 - Sort
     - [K번째수](https://github.com/rt3310/TIL/blob/main/Algorithm/programmers/sort/knum.md)
     - [H-Index](https://github.com/rt3310/TIL/blob/main/Algorithm/programmers/sort/H_Index.md)
+
+### leetcode
+
+### codeforces
