@@ -12,11 +12,11 @@ class Solution:
             right = i
             while True:
                 if left < 0 or right >= len(s):
-                    counts.append([i, left + 1, right - 1])
+                    counts.append([left + 1, right - 1])
                     break
                 
                 if s[left] != s[right]:
-                    counts.append([i, left + 1, right - 1])
+                    counts.append([left + 1, right - 1])
                     break
                 
                 left -= 1
@@ -28,11 +28,11 @@ class Solution:
             right = i + 1
             while True:
                 if left < 0 or right >= len(s):
-                    counts.append([i, left + 1, right - 1])
+                    counts.append([left + 1, right - 1])
                     break
 
                 if s[left] != s[right]:
-                    counts.append([i, left + 1, right - 1])
+                    counts.append([left + 1, right - 1])
                     break
 
                 left -= 1
@@ -41,11 +41,11 @@ class Solution:
         maximum = 0
         maxidx = 0
         for i, count in enumerate(counts):
-            if count[2] - count[1] > maximum:
-                maximum = count[2] - count[1]
+            if count[1] - count[0] > maximum:
+                maximum = count[1] - count[0]
                 maxidx = i
         
-        return s[counts[maxidx][1]:counts[maxidx][2] + 1]
+        return s[counts[maxidx][0]:counts[maxidx][1] + 1]
 
 print(Solution().longestPalindrome("babad"))
 print(Solution().longestPalindrome("cbbd"))
