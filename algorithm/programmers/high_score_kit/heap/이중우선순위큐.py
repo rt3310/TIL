@@ -1,6 +1,5 @@
 from heapq import heapify, heappop, heappush, nlargest
 
-
 def solution(operations):
     answer = []
 
