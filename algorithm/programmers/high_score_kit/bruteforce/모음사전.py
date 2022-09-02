@@ -11,7 +11,6 @@ def solution(word):
         if len(compare) < 5:
             compare += alpha[0]
         else:
-            print(compare)
             while alpha_dict[compare[-1]] == 4:
                 compare = compare[:-1]
             compare = compare[:-1] + alpha[alpha_dict[compare[-1]]+1]
@@ -19,5 +18,3 @@ def solution(word):
 
     answer = count
     return answer
-
-print(solution("I"))
